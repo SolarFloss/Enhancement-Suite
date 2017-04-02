@@ -1,0 +1,42 @@
+{
+  "manifest_version": 2,
+
+  "name": "Enhancement Suite",
+  "description": "Makin ur life gud",
+
+  "version": "1.0",
+
+  "browser_action":{
+    "default_icon": "images/icon.png",
+    "default_popup": "popup.html",
+    "default_title": "filter"
+  },
+
+  "content_scripts":[{
+      "matches": ["http://*/","https://*/*"],
+      "js": ["scripts/monitor.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }],
+
+  "permissions": [
+    "http://*/*",
+    "tabs",
+    "storage",
+    "activeTab"
+  ],
+
+  "options_ui":{
+    "page": "options.html",
+    "chrome_style":true,
+    "open_in_tab": true
+  },
+
+
+  "background":{
+    "scripts": ["scripts/background.js"]
+  }
+
+
+
+}

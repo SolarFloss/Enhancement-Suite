@@ -3,6 +3,6 @@ Stopping bullying and harrasment is hard, so we got parents to help us out. This
 
 
 ## What it is
-This is a basic chrome extension that monitors word usage. It dynamically edits a graph showing tag words used and their frequency
+This is a basic chrome extension that monitors word usage. It dynamically updates a graph showing tagged words used and their frequency. In the example generic words were used to get the point accross, but in a real implementation of the project the words would be "bad" words
 
 ![alt tag](/images/pic.png)

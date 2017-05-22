@@ -1,5 +1,5 @@
 # Enhancement-Suite
-Stopping bullying and harrasment is hard, so we got parents to help us out. This was made for a Hackathon hosted by Major League Hacking at College of William and Mary
+Stopping bullying and harrasment is hard, so we got parents to help us out. This was made for a Hackathon hosted by Major League Hacking at College of William and Mary. This project was also the recipient of the "Hack Harrasment" award.
 
 
 ## What it is
